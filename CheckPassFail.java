@@ -1,17 +1,15 @@
 /**
- * Trying if-else statement.
+ * Trying if-else statement and modulus (%) operator.
  */
-public class CheckPassFail {  // Save as "CheckPassFail.java"
+public class CheckOddEven {   // Save as "CheckOddEven.java"
    public static void main(String[] args) {  // Program entry point
-      int mark = 51 ;   // Set the value of "mark" here!
-      System.out.println("The mark is " + mark);
- 
-      // if-else statement
-      if ( mark >= 50 ) {
-         System.out.println("PASS");
+      int number = 49;       // Set the value of "number" here!
+      System.out.println("The number is " + number);
+      if ( ...... ) {
+         System.out.println( ...... );   // even number
       } else {
-         System.out.println("FAIL");
+         System.out.println( ...... );   // odd number
       }
-      System.out.println("DONE");
+      System.out.println( ...... );
    }
 }
